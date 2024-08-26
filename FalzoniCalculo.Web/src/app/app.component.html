@@ -1,0 +1,26 @@
+<ngx-spinner bdColor="rgba(255,255,255,0.78)" size="large" color="#255b22" type="pacman" [fullScreen]="true"><p style="color: #255b22; font-size: 30px; margin-top: 50px"> Aguarde... </p></ngx-spinner>
+
+<main>
+  <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+    <div class="row align-items-center g-lg-5 py-5">
+      <div class="col-lg-7 text-center text-lg-start">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Cálculo de investimentos</h1>
+        <p class="col-lg-10 fs-4">Calcule valores como CDB, medida do Exercício, entre outros.</p>
+        <h1 class="col-lg-10 fs-1 text-success" *ngIf="liquidValue && grossValue">O valor bruto é {{ grossValue | currency: 'BRL' }} e o valor líquido é {{ liquidValue | currency: 'BRL' }}</h1>
+      </div>
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form [formGroup]="calcForm" (ngSubmit)="submitForm()" class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+          <div class="form-floating mb-3">
+            <input type="text" currencyMask formControlName="value" id="value" class="form-control" placeholder="R$ 10,00">
+            <label for="value">Digite o valor</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="date" formControlName="date" id="date" class="form-control" placeholder="Set a date">
+            <label for="date">Data para resgate</label>
+          </div>
+          <button class="w-100 btn btn-lg btn-success" type="submit">Calcular</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>

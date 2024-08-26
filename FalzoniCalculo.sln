@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{21D23B9D-CC4F-4B03-8B95-C28A7EFDDBF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{8242567D-DC5C-4432-8BD7-221DF5081FDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{F06D2534-14D8-4844-8860-D729DB80D1DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FalzoniCalculo.Api", "FalzoniCalculo.Api\FalzoniCalculo.Api.csproj", "{32B04793-E33B-4D29-879C-949D12AAE871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FalzoniCalculo.Api.Tests", "Api\FalzoniCalculo.Api.Tests\FalzoniCalculo.Api.Tests.csproj", "{B8CFE991-FBED-41A9-A832-99DBB5D7E6F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8A250DDA-6BFC-4292-8683-6F2765C60593}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FalzoniCalculo.Service", "FalzoniCalculo.Service\FalzoniCalculo.Service.vbproj", "{1393D4F7-8708-4BF3-BD79-E3EBD3759631}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "FalzoniCalculo.Web", "FalzoniCalculo.Web\FalzoniCalculo.Web.esproj", "{53C280AF-9760-440A-A479-815705AC8833}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{0C5AC29B-1DB6-47B0-80EA-46E2F8A64B31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FalzoniCalculo.Models", "FalzoniCalculo.Models\FalzoniCalculo.Models.csproj", "{9B178F4D-8F63-40AA-A925-0C1F001EF942}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI", "DI", "{5AFE856D-416B-4D60-BB51-78065EAF9055}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FalzoniCalculo.DI", "FalzoniCalculo.DI\FalzoniCalculo.DI.vbproj", "{ED578089-5297-4787-8508-FC79E31672D0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FalzoniCalculo.Service.Tests", "FalzoniCalculo.Service.Tests\FalzoniCalculo.Service.Tests.vbproj", "{9FCB4109-A47C-430A-9BB5-A978432A2B08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32B04793-E33B-4D29-879C-949D12AAE871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B04793-E33B-4D29-879C-949D12AAE871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B04793-E33B-4D29-879C-949D12AAE871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B04793-E33B-4D29-879C-949D12AAE871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8CFE991-FBED-41A9-A832-99DBB5D7E6F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CFE991-FBED-41A9-A832-99DBB5D7E6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CFE991-FBED-41A9-A832-99DBB5D7E6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CFE991-FBED-41A9-A832-99DBB5D7E6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1393D4F7-8708-4BF3-BD79-E3EBD3759631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1393D4F7-8708-4BF3-BD79-E3EBD3759631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1393D4F7-8708-4BF3-BD79-E3EBD3759631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1393D4F7-8708-4BF3-BD79-E3EBD3759631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C280AF-9760-440A-A479-815705AC8833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C280AF-9760-440A-A479-815705AC8833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C280AF-9760-440A-A479-815705AC8833}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{53C280AF-9760-440A-A479-815705AC8833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C280AF-9760-440A-A479-815705AC8833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C280AF-9760-440A-A479-815705AC8833}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9B178F4D-8F63-40AA-A925-0C1F001EF942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B178F4D-8F63-40AA-A925-0C1F001EF942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B178F4D-8F63-40AA-A925-0C1F001EF942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B178F4D-8F63-40AA-A925-0C1F001EF942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED578089-5297-4787-8508-FC79E31672D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED578089-5297-4787-8508-FC79E31672D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED578089-5297-4787-8508-FC79E31672D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED578089-5297-4787-8508-FC79E31672D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FCB4109-A47C-430A-9BB5-A978432A2B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCB4109-A47C-430A-9BB5-A978432A2B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCB4109-A47C-430A-9BB5-A978432A2B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FCB4109-A47C-430A-9BB5-A978432A2B08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32B04793-E33B-4D29-879C-949D12AAE871} = {21D23B9D-CC4F-4B03-8B95-C28A7EFDDBF3}
+		{B8CFE991-FBED-41A9-A832-99DBB5D7E6F2} = {8A250DDA-6BFC-4292-8683-6F2765C60593}
+		{1393D4F7-8708-4BF3-BD79-E3EBD3759631} = {F06D2534-14D8-4844-8860-D729DB80D1DB}
+		{53C280AF-9760-440A-A479-815705AC8833} = {8242567D-DC5C-4432-8BD7-221DF5081FDC}
+		{9B178F4D-8F63-40AA-A925-0C1F001EF942} = {0C5AC29B-1DB6-47B0-80EA-46E2F8A64B31}
+		{ED578089-5297-4787-8508-FC79E31672D0} = {5AFE856D-416B-4D60-BB51-78065EAF9055}
+		{9FCB4109-A47C-430A-9BB5-A978432A2B08} = {8A250DDA-6BFC-4292-8683-6F2765C60593}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {527B969A-B978-47B9-ACF1-156EC272F5D2}
+	EndGlobalSection
+EndGlobal
